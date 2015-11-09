@@ -1,0 +1,487 @@
+body {
+    font-family: 'helvetica', 'arial';
+    font-weight: 300;
+}
+
+a {
+  color: black;
+    text-decoration: none;
+}
+
+h2,h3 {
+    font-weight: 300;
+    color:#545454;
+}
+header { 
+    background-color: rgba(67, 67, 67,0.8);
+    font-weight: 400;
+}
+
+#event_name_big {
+    font-size: 26px;
+    text-align: center;
+}
+
+
+#leftheader p a{
+    font-size: 23px;
+    font-weight: 400;
+    color: whitesmoke;
+    position: relative;
+    top: -3px;
+    letter-spacing: 1px;
+}
+
+#rightheader p {
+    display: inline-block;
+    margin-left: 20px;
+     
+}
+
+#rightheader p a {
+    color: whitesmoke;
+     position: relative;
+    top: -3px;
+}
+
+#rightheader p a:hover {
+    color:#627071;
+}
+
+#mainarea {
+   
+}
+
+#searchsubmit input {
+    background-color: darksalmon;
+}
+
+#addsubmit input {
+    background-color: darksalmon;
+}
+
+
+#searcharea {
+    background-color: #80BFDF;
+    
+}
+
+footer {
+    background: whitesmoke;
+   
+}
+
+footer #copyright {
+    position: relative;
+    margin-top: -5px;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+    color: grey;
+    float: left;
+    margin-left: 9%;
+}
+
+footer #loginfo {
+    position: relative;
+    margin-top: -5px;
+    font-size: 15px;
+    padding: 0px;
+    text-align: center;
+    color: grey;
+    float: right;
+    margin-right: 3%;
+}
+
+#searchbookform div select {
+    
+    font-weight: 300;
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+}
+
+#searchbookform {
+    margin-top: 20px;
+    
+}
+
+#searchbookform div{
+    width: 85%;
+    margin-bottom: 2%;
+}
+
+#searchbookform div input {
+    font-family: 'Oxygen','helvetica';
+    width: 100%;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    font-weight: 300;
+}
+
+#welcomemsg {
+    margin-top: 35px;
+}
+
+#searchresults {
+    margin-top: 26px;
+    font-family: 'Oxygen','helvetica';
+    color:#627071;
+}
+.events {
+    height: 170px;
+    width: 95%;
+    border: 2px;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+    border-style:solid;
+    border-radius: 2px;
+    color:#545454;
+    font-size: 17px;
+}
+
+.events:hover{
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+}
+
+.events:active{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+.evalues {
+    display: inline-block;
+    width: 70%;
+    height: 145px;
+    vertical-align: top;
+    position: relative;
+    top: -25px;
+    left: -5px;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.date {
+    position: relative;
+    top: -10px;
+}
+
+
+
+
+
+.eimage {
+     display: inline-block;
+     width: 25%;
+    max-height: 145px;
+     vertical-align: top;
+}
+
+.seemore{
+   display: inline-block;
+    position: absolute;
+    background-color: dimgrey;
+    height: 30px;
+    width: 30px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    
+}
+
+.seemore i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+
+
+.summary {
+    position: absolute;
+    visibility: hidden;
+    width:95.8%;
+    height: 160px ;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.event_img {
+    max-width: 99%;
+    max-height: 150px;
+}
+
+.location p {
+    font-size: 15px;
+
+    word-break: break-all;
+
+
+
+}
+
+.location{
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+    word-break: break-all;
+    max-width: 99%;
+    max-height: 30px;
+    vertical-align: top;
+}
+
+
+
+
+
+.hotels {
+    height: 170px;
+    width: 95%;
+    border: 2px;
+    margin: 10px 10px 20px;
+    padding: 15px;
+    border-style:solid;
+    border-radius: 2px;
+    color:#545454;
+    font-size: 17px;
+}
+
+.hotels:hover{
+    box-shadow: 0px 0px 2px 2px;
+    cursor: pointer;
+}
+
+.hotels:active{
+    box-shadow: none;
+    cursor: pointer;
+}
+
+
+.hvalues {
+    display: inline-block;
+    width: 70%;
+    height: 145px;
+    vertical-align: top;
+    position: relative;
+    top: -25px;
+    left: -5px;
+}
+
+.htitle {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.hdate {
+    position: relative;
+    top: -10px;
+}
+
+
+
+
+
+.himage {
+    display: inline-block;
+    width: 25%;
+    max-height: 145px;
+    vertical-align: top;
+}
+
+.hseemore{
+    display: inline-block;
+    position: absolute;
+    background-color: dimgrey;
+    height: 30px;
+    width: 30px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+
+}
+
+.hseemore i {
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.bolder {
+    font-weight: 600;
+}
+
+
+
+.summary_hotels {
+    position: fixed;
+    visibility: hidden;
+    width:95.8%;
+    height: 160px ;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.hotel_img {
+    max-width: 99%;
+    max-height: 150px;
+}
+
+.hlocation p {
+    font-size: 15px;
+
+    word-break: break-all;
+
+
+
+}
+
+.hlocation{
+    margin-top: 5px;
+    position: relative;
+    overflow: hidden;
+    word-break: break-all;
+    max-width: 99%;
+    max-height: 30px;
+    vertical-align: top;
+}
+
+
+
+
+
+#date_form{
+    width: 95%;
+    margin: 0 auto;
+}
+
+#date_form input {
+    height: 40px;
+
+}
+
+#date_form p {
+    display: inline-block;
+    float: left;
+}
+
+#cin{
+    float: left;
+
+    width: 45%;
+    position: relative;
+    margin: 2%;
+
+}
+
+#cout{
+    margin: 2%;
+    position: relative;
+    width: 45%;
+
+    float: left;
+}
+
+
+
+
+/*TABS*/
+#tabscontent{
+    position: relative;
+    right: -20px;
+}
+
+#tabHeader_1 {
+    list-style: none;
+    margin-left: -15px;
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.datebtn {
+    background-color: darksalmon;
+    text-align: center;
+    border: none;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 32.5%;
+    width: 100px;
+    font-weight: 300;
+}
+
+.ui-datepicker {
+    background: white;
+
+    color: grey;
+}
+
+#date_title{
+    font-size: 27px;
+    font-weight: 600;
+    color: #545454;
+}
+
+#price_range select {
+    font-weight: 300;
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#star_rank select {
+    font-weight: 300;
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
+
+#filter_submit {
+    font-weight: 300;
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding-left: 5px;
+    background-color: darksalmon;
+    margin-top: 10px;
+}
+
+#greet_main {
+    font-size: 25px;
+    color: #545454;
+}
+
+
+#down{
+    width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position: absolute;
+    visibility: hidden;
+     /*To Do*/
+    right: 30px;
+    top: 50px;
+	border-top: 20px solid darksalmon;
+}
+
+.seemap{
+    margin-top: 10px;
+    font-size: 20px;
+    color: darksalmon;
+}
+
+.seemap:hover {
+    color: white;
+}
