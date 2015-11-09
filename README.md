@@ -6,6 +6,7 @@ EventLine queries the largest event database and booking website in the world - 
 ## Contributors
 
 xelaus https://github.com/xelaus
+
 zhemani https://github.com/zhemani
 
 ## License
